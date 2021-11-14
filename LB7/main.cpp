@@ -9,6 +9,7 @@
 #include <queue>
 using namespace std;
 
+
 int** create_arr(int n)
 {
 	int s = 1;
