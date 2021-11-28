@@ -208,9 +208,10 @@ int main(int argc, char* argv[])
 {
 	setlocale(LC_ALL, "Ru");
 	int n, ** n_v, x, ** o_v, ** n_n, ** o_n;
-	printf("¬ведите размер матрицы: ");
-	scanf("%d", &n);
-
+	char* d;
+	//printf("¬ведите размер матрицы: ");
+	//scanf("%d", &n);
+	sscanf(argv[3], "%d", &n);
 	printf("¬ведите, с какой вершины хотите начать: ");
 	scanf("%d", &x);
 	while (x < 1 || x > n)
